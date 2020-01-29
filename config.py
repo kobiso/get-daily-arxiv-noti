@@ -12,5 +12,8 @@ TOKEN = 'changeme'
 REPO_OWNER = 'changeme'
 REPO_NAME = 'changeme'
 
+# Set new submission url of subject
+NEW_SUB_URL = 'https://arxiv.org/list/cs/new'
+
 # Keywords to search
 KEYWORD_LIST = ["changeme"]

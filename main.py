@@ -8,10 +8,10 @@ from bs4 import BeautifulSoup as bs
 import urllib.request
 
 from github_issue import make_github_issue
-from config import KEYWORD_LIST
+from config import NEW_SUB_URL, KEYWORD_LIST
 
 def main():
-    page = urllib.request.urlopen('https://arxiv.org/list/cs/new')
+    page = urllib.request.urlopen(NEW_SUB_URL)
     soup = bs(page)
     content = soup.body.find("div", {'id': 'content'})
 
