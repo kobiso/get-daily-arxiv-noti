@@ -1,4 +1,4 @@
-# daily-arxiv-noti
+# get-daily-arxiv-noti
 
 You can get daily arxiv notification with pre-defined keywords as [here](https://github.com/kobiso/daily-arxiv-noti/issues).
 
